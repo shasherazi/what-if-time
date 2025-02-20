@@ -22,7 +22,7 @@ const TimeConfig = () => {
 
   // Add state for the converter dropdowns
   const [fromUnit, setFromUnit] = useState("day");
-  const [toUnit, setToUnit] = useState("hours");
+  const [toUnit, setToUnit] = useState("hour");
 
   const timeUnitOptions = [
     { value: "second", label: "Second" },
@@ -125,7 +125,7 @@ const TimeConfig = () => {
       <Card>
         <CardContent className="pt-6">
           <h2 className="text-lg font-semibold mb-4">Time Unit Converter</h2>
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
             <p>By your rules, one</p>
             <Select value={fromUnit} onValueChange={setFromUnit}>
               <SelectTrigger className="w-32">
