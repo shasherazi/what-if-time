@@ -1,48 +1,45 @@
-# Astro Starter Kit: Basics
+# What If Time
 
-```sh
-npm create astro@latest -- --template basics
-```
+## Overview
+What If Time is an interactive tool that allows users to experiment with different time unit configurations. By modifying fundamental time measurements, users can see how time would function under new rules. Ever wondered what would happen if a day had only 20 hours or a week lasted 10 days? This tool lets you explore those possibilities!
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Features
+* Customize fundamental time units such as seconds per minute, minutes per hour, hours per day, and more.
+* Instantly see how changes affect the overall structure of time.
+* Simple and intuitive interface for easy experimentation.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Installation
+To set up and run this project locally, follow these steps:
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/what-if-time.git
+   cd what-if-time
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
 
-## 🚀 Project Structure
+## Usage
+1. Open the application in your browser.
+2. Adjust the values for seconds per minute, minutes per hour, hours per day, etc.
+3. The results update instantly, showing how time would function under your new rules.
 
-Inside of your Astro project, you'll see the following folders and files:
+## Technologies Used
+* React
+* TypeScript
+* TailwindCSS
+* ShadCN UI Components
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## Contributing
+Contributions are welcome! If you have ideas for improvements or bug fixes, feel free to open an issue or submit a pull request.
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## License
+This project is licensed under the MIT License.
 
-## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
